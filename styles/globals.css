@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    article{
+      @apply lg:text-left lg:p-10;
+    }
+    body {
+      @apply bg-coolday-100 dark:bg-coolnight-100;
+      @apply min-h-screen;
+    }
+
+    p{
+      @apply text-coolnight-100 dark:text-moodytext-100;
+    }
+  
+  
+    .btn{
+      @apply inline-block px-5 py-3 rounded-lg hover:bg-indigo-600 transition duration-300 shadow-lg bg-indigo-500 text-white capitalize tracking-wider font-semibold text-sm sm:text-xl focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50 whitespace-nowrap
+    }
+  
+    h1, h2, h3, h4, h5, h6 {
+      @apply text-coolnight-100 dark:text-moodytext-100;
+    }
+    a {
+      @apply hover:text-blue-500
+    }
+    strong, blockquote, code{
+      @apply text-gray-900 dark:text-blue-200
+    }
+ 
+  }
+  
