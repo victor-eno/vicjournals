@@ -48,22 +48,24 @@ export default function Blog({ posts }) {
       </div>
       
       <main>
+          <br></br>
+          <br></br>
         <div className='px-10'>
           {posts?.map((post) => {
             return (
               
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
-                  <div className='text-base mb-4'>
+                  <div className='mb-4'>
                     <h1 className='text-2xl font-semibold'>{post.frontMatter.title}</h1>                   
-                    <h1 className="font-base h-10">{post.frontMatter.date}</h1>
+                    <h1 className="font-base h-10 text-gray-500">{post.frontMatter.date}</h1>
                     <p>{post.frontMatter.metaDesc}</p>
                     <Link key={`${post.slug}`} href={`/blog/${post.slug}`}>
                       <a>
-                    <h1 className="hover:text-blue-500 text-l">{post.frontMatter.fullContent}</h1>
+                    <h1 className="hover:text-blue-500 text-gray-500 underline">{post.frontMatter.fullContent}</h1>
                     </a>
                     </Link>
                     <div className="flex justify-end">
-                    <h1>{post.frontMatter.readTime}</h1>
+                    <h1 className="text-gray-500">{post.frontMatter.readTime}</h1>
                     </div>
                   </div>
               </div>
