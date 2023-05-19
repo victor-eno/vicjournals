@@ -10,13 +10,13 @@ module.exports = {
     extend: {
       colors: {
         coolnight: {
-          100: '#192734',
+          100: '#272f38',
         },
         coolday: {
           100: '#FFF',
         },
         moodytext: {
-          100: '#bfdbfe',
+          100: '#fff',
         }
       }
     },
