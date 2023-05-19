@@ -12,7 +12,7 @@
     }
 
     p{
-      @apply text-coolnight-100 dark:text-moodytext-100;
+      @apply text-lg text-coolnight-100 dark:text-moodytext-100;
     }
   
   
