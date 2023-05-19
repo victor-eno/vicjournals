@@ -51,9 +51,11 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
           <br></br>
           <br></br>
 
-          <div className="text-lg">
+          <div>
+          
+          <div>
           <h1 className="text-2xl font-base">Welcome</h1>
-             <p className="text-base">...to my home page on the internet. My name is Victor Eno.
+             <p>...to my home page on the internet. My name is Victor Eno.
                 I am a programmer
                 with a strong passion for crafting useful and industrial value software applications.
                 My restless commitment for today is a synchronous learning and building of technology
@@ -61,17 +63,15 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
             </p>
             <br></br> 
             <h1 className="text-2xl font-base">My key interest</h1>
-            <p className="text-base">...is exploring ways to fully comprehend the imaginative act of programming.</p>
-            <br></br>
-            <h1 className="text-xl font-base">Others include</h1>
-            <p className="text-base">...Open source software, Distributed system, Storage,
-             Web servers technology, User interface design</p>
+            <p>...is exploring ways to fully comprehend the imaginative act of programming.</p>
+            Others include...Open source software, Distributed system, Storage,
+             Web servers technology, User interface design
           </div>
 
           <br></br>
           
           <h1 className="text-2xl font-base">My grind</h1>
-            <p className="text-base">...I have a log book for tracking things I'm working on</p>
+            <p>...I have a log book for tracking things I'm working on</p>
 
           <Link href="/projects" passHref>
           <a className="cursor-pointer">
@@ -88,19 +88,62 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
           <div>
             <br></br>
-               <h1 className="text-2xl font-base">My contacts</h1>
+          <h1 className="text-2xl font-base">My contacts</h1>
+           
+            
+            <div className="flex">
+            <div>
+            <h1 className="dark:text-moodytext-100">Email :</h1>
+            </div>
+            <div>
+            <Link href="/projects" passHref>
+            <a className="cursor-pointer">
+            <h1 className="text-blue-400 dark:text-blue-400 ">victor_eno345@protonmail.com</h1>
+            </a>
+            </Link>
+            </div>
+            </div>
 
-                  <Link href={'https://mail.proton.me/victor-eno'} passHref>
-                  <a><h1 className="dark:text-blue-400 font-black">Mail: victor_eno345@protonmail.com</h1></a>
-                  </Link>
+            <div className="flex">
+            <div>
+            <h1 className="dark:text-moodytext-100">Github :</h1>
+            </div>
+            <div>
+            <Link href={'https://github.com/victor-eno'} passHref>
+            <a className="cursor-pointer">
+            <h1 className="text-blue-400 dark:text-blue-400 ">@victor-eno</h1>
+            </a>
+            </Link>
+            </div>
+            </div>
 
-                  <Link href={'https://github.com/victor-eno'} passHref>
-                  <a><h1 className="dark:text-blue-400 font-black">Github</h1></a>
-                  </Link>
+            <div className="flex">
+            <div>
+            <h1 className="dark:text-moodytext-100">LinkedIn :</h1>
+            </div>
+            <div>
+            <Link href={'https://www.linkedin.com/in/victor-eno-udoh'} passHref>
+            <a className="cursor-pointer">
+            <h1 className="text-blue-400 dark:text-blue-400 ">@victor-eno</h1>
+            </a>
+            </Link>
+            </div>
+            </div>
 
-                <Link href={'https://www.linkedin.com/in/victor-eno-udoh'} passHref>
-                <a><h1 className="dark:text-blue-400 font-black">LinkedIn</h1></a>
-                </Link>
+            <div className="flex">
+            <div>
+            <h1 className="dark:text-moodytext-100">Twitter :</h1>
+            </div>
+            <div>
+            <Link href={'https://twitter.com/vic_magnifico'} passHref>
+            <a className="cursor-pointer">
+            <h1 className="text-blue-400 dark:text-blue-400 ">@vic_magnifico</h1>
+            </a>
+            </Link>
+            </div>
+            </div>
+          </div>
+
           </div>
 
       </main>
