@@ -13,7 +13,7 @@ module.exports = {
           100: '#192734',
         },
         coolday: {
-          100: '#F1F6F9',
+          100: '#FFF',
         },
         moodytext: {
           100: '#bfdbfe',
