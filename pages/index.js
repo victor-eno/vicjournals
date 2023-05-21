@@ -20,7 +20,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
         <div className="text-3xl font-black left-0 top-0">
         <h1>
-          About
+          Victor Eno
         </h1>
         </div>
 
@@ -63,7 +63,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
             </p>
             <br></br> 
             <h1 className="text-2xl font-base">My key interest</h1>
-            <p>...is exploring ways to fully comprehend the imaginative act of programming.</p>
+            <p>...is exploring ways to fully comprehend the imaginative art of programming.</p>
             Others include...Open source software, Distributed system, Storage,
              Web servers technology, User interface design
           </div>
@@ -71,7 +71,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
           <br></br>
           
           <h1 className="text-2xl font-base">My grind</h1>
-            <p>...I have a log book for tracking things I'm working on</p>
+            <p>...Here's a snapshot of how I have been spending my time recently</p>
 
           <Link href="/projects" passHref>
           <a className="cursor-pointer">
