@@ -21,10 +21,9 @@ export default function Blog({ posts }) {
 
         <div className="text-3xl font-black left-0 top-0">
         <h1>
-          Blog
+          Blog <p className="font-normal lg:px-20">. . .journaling to fully comprehend</p>
         </h1>
         </div>
-
 
        <div className="order-last">
      
@@ -48,8 +47,7 @@ export default function Blog({ posts }) {
       </div>
       
       <main>
-          <br></br>
-          <br></br>
+    
         <div className='px-10'>
           {posts?.map((post) => {
             return (
@@ -64,8 +62,9 @@ export default function Blog({ posts }) {
                     <h1 className="hover:text-blue-500 text-gray-500 underline">{post.frontMatter.fullContent}</h1>
                     </a>
                     </Link>
-                    <div className="flex justify-end">
-                    <h1 className="text-gray-500">{post.frontMatter.readTime}</h1>
+                    <div className="flex justify-between">
+                    <h2 className="text-gray-500">{post.frontMatter.tag}</h2>  
+                    <h2 className="order-last text-gray-500">{post.frontMatter.readTime}</h2>
                     </div>
                   </div>
               </div>
