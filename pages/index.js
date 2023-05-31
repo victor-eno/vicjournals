@@ -32,7 +32,9 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
        </div>
 
        </nav>
-      
+
+       <br></br>
+       
       <div className="flex justify-between p-10">
       <span></span>  
       <div className="order-last">
@@ -47,8 +49,6 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
       </div>
       <main className="px-10">
 
-          
-          <br></br>
           <br></br>
 
           <div>
@@ -56,10 +56,8 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
           <div>
           <h1 className="text-2xl font-base">Welcome</h1>
              <p>...to my home page on the internet. My name is Victor Eno.
-                I am a programmer
-                with a strong passion for crafting useful and industrial value software applications.
-                My restless commitment for today is a synchronous learning and building of technology
-                tools which I believe is the perfect design for the possibilities of tomorrow.
+                I am a programmer with a restless commitment for learning and crafting useful 
+                and industrial value software applications.
             </p>
             <br></br> 
             <h1 className="text-2xl font-base">My key interest</h1>
