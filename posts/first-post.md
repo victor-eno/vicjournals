@@ -2,8 +2,8 @@
 title: 'I Made It: My First Public Writing'
 date: April 7, 2023
 metaDesc: A resounding gun salute, and let the colourful confetti start to fall gently. So finally I have put my first blog post here.
-fullContent: ' ...Continue Reading'
-tag: web development
+fullContent: 'Continue Reading'
+tag: 
 author: You
 readTime: 2mins read
 ps: '  This article was posted on 2022-04-27. Facts and circumstances may have change 
