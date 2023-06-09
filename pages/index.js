@@ -18,26 +18,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
       <nav className="flex justify-between p-10"> 
 
-        <div className="text-3xl font-black left-0 top-0">
-        <h1>
-          Victor Eno
-        </h1>
-        </div>
-
-
-       <div className="order-last">
-     
-       <Toggle />
-     
-       </div>
-
-       </nav>
-
-       <br></br>
-       
-      <div className="flex justify-between p-10">
-      <span></span>  
-      <div className="order-last">
+      <div className="left-0 top-0">
       <Link href="/blog" passHref>
       <a>
         <div className="cursor-pointer">
@@ -46,7 +27,25 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
       </a>
       </Link>
       </div>
-      </div>
+
+       <div className="order-last">    
+       <Toggle />    
+       </div>
+
+       </nav>
+
+       <div className="flex justify-between p-10">
+       <div className="text-6xl font-black left-0 top-0">
+        <h1>
+          VICTOR
+        </h1>
+        <h1>
+          ENO 
+        </h1>
+  
+        </div>
+        </div>
+
       <main className="px-10">
 
           <br></br>

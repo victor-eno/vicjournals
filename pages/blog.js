@@ -19,11 +19,16 @@ export default function Blog({ posts }) {
 
       <nav className="flex justify-between p-10"> 
 
-        <div className="text-3xl font-black left-0 top-0">
-        <h1>
-          Blog <p className="font-normal lg:px-20">. . .journaling to fully comprehend</p>
-        </h1>
-        </div>
+      <div className="left-0 top-0">
+            <Link href="/" passHref>
+              <a>
+               <div className="cursor-pointer">
+                  <h1 className="font-bold">Home</h1>
+               </div>
+               </a>
+            </Link>
+          </div>
+       
 
        <div className="order-last">
      
@@ -33,19 +38,14 @@ export default function Blog({ posts }) {
 
        </nav>
 
-      <div className="flex justify-between p-10">
-      <span></span>
-          <div className="order-last">
-            <Link href="/" passHref>
-              <a>
-               <div className="cursor-pointer">
-                  <h1 className="font-bold">About</h1>
-               </div>
-               </a>
-            </Link>
-          </div>
-      </div>
-      
+       <div className="flex justify-between p-10">
+       <div className="text-6xl font-black left-0 top-0">
+        <h1>
+          BLOG <p className="font-normal">. . .journaling to fully comprehend</p>
+        </h1>
+        </div>
+        </div>
+
       <main>
     
         <div className='px-10'>
