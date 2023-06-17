@@ -23,7 +23,7 @@ export default function Blog({ posts }) {
             <Link href="/" passHref>
               <a>
                <div className="cursor-pointer">
-                  <h1 className="font-bold">Home</h1>
+                  <h1 className="font-bold">About</h1>
                </div>
                </a>
             </Link>
@@ -45,7 +45,7 @@ export default function Blog({ posts }) {
         </h1>
         </div>
         </div>
-
+         <br></br>
       <main>
     
         <div className='px-10'>

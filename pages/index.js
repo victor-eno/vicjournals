@@ -45,6 +45,7 @@ import Socials from "../components/Socials";
           ENO 
         </h1>
         <Socials />
+        <h1 className="text-sm">victor_eno345@protonmail.com</h1>
         </div>
         </div>
 
