@@ -2,13 +2,13 @@ import { SocialIcon } from "react-social-icons";
 
 const Socials = () => {
     return (
-        <div className="flex space-x-2">
+        <div className="flex space-x-4">
             <SocialIcon
             url="https://github.com/victor-eno"
             network="github"
             fgColor="#fff"
             bgColor="#000"
-            style={{height: 25, width: 25}}
+            style={{height: 30, width: 30}}
             />
 
            <SocialIcon
@@ -16,7 +16,7 @@ const Socials = () => {
             network="linkedin"
             fgColor="#fff"
             bgColor="#000"
-            style={{height: 25, width: 25}}
+            style={{height: 30, width: 30}}
             />
 
            <SocialIcon
@@ -24,7 +24,7 @@ const Socials = () => {
             network="twitter"
             fgColor="#fff"
             bgColor="#000"
-            style={{height: 25, width: 25}}
+            style={{height: 30, width: 30}}
             />
             
         </div>
