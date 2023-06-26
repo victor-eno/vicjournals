@@ -17,6 +17,12 @@ module.exports = {
         },
         moodytext: {
           100: '#c5cae9',
+        },
+        greytext: {
+          100: '#9ca3af'
+        },
+        whitetext: {
+          100: '#fafafa'
         }
       }
     },

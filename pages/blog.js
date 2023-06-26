@@ -23,7 +23,7 @@ export default function Blog({ posts }) {
             <Link href="/" passHref>
               <a>
                <div className="cursor-pointer">
-                  <h1 className="font-bold">About</h1>
+                  <h1 className="font-bold text-greytext-100 dark:text-whitetext-100">About</h1>
                </div>
                </a>
             </Link>
@@ -40,12 +40,15 @@ export default function Blog({ posts }) {
 
        <div className="flex justify-between p-10">
        <div className="text-6xl font-black left-0 top-0">
-        <h1>
+       <h1>
+          My
+        </h1>
+        <h1 className="text-greytext-100 dark:text-whitetext-100">
           BLOG <p className="font-normal">. . .journaling to fully comprehend</p>
         </h1>
         </div>
         </div>
-         <br></br>
+        
       <main>
     
         <div className='px-10'>
@@ -59,7 +62,7 @@ export default function Blog({ posts }) {
                     <p>{post.frontMatter.metaDesc}</p>
                     <Link key={`${post.slug}`} href={`/blog/${post.slug}`}>
                       <a>
-                    <h1 className="hover:text-blue-500 text-gray-500 underline">{post.frontMatter.fullContent}</h1>
+                    <h1 className="hover:text-blue-500 text-greytext-100 dark:text-whitetext-100 underline">{post.frontMatter.fullContent}</h1>
                     </a>
                     </Link>
                     <div className="flex justify-between">

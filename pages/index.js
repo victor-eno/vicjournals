@@ -24,7 +24,7 @@ import Socials from "../components/Socials";
       <Link href="/blog" passHref>
       <a>
         <div className="cursor-pointer">
-          <h1 className="font-bold">Blog</h1>
+          <h1 className="font-bold text-greytext-100 dark:text-whitetext-100">Blog</h1>
         </div>
       </a>
       </Link>
@@ -41,33 +41,35 @@ import Socials from "../components/Socials";
         <h1>
           VICTOR
         </h1>
-        <h1>
+        <h1 className="text-greytext-100 dark:text-whitetext-100">
           ENO 
         </h1>
-        <h1 className="text-xl">victor_eno345@protonmail.com</h1>
-        <Socials />
+        <p className="font-normal">. . .victor underscore eno three four five at 
+        protonmail dot com
+        </p>
         </div>
         </div>
 
       <main className="px-10">
 
           <br></br>
-
-          <div>
           
           <div>
           
              <p>
-              Welcome to my home page on the internet. I am a programmer with a restless 
+              Welcome to my web space on the internet. I am a programmer with a restless 
               commitment to exploring ways to fully comprehend the imaginative art of 
               programming for crafting useful and industrial value software 
-              applications. My key interests are in open source software, Distributed system,
+              applications
+             </p>
+             <br></br>
+             <p>
+             My key interests are in open source software, Distributed system,
                Storage, Web servers technology, User interface design
              </p>
           </div>
-
-          </div>
-
+          <br></br>
+          <Socials />
       </main>
 
      
