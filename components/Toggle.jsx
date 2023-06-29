@@ -25,7 +25,7 @@ import {useState, useEffect} from "react";
 
           else {
             return (
-              <MoonIcon className="w-5 h-5 text-coolnight-100 " role="button" onClick={() => setTheme('dark')} />
+              <MoonIcon className="w-5 h-5 text-greytext-100 " role="button" onClick={() => setTheme('dark')} />
             )
           }
        };

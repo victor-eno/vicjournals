@@ -17,13 +17,13 @@ export default function Blog({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between p-10"> 
+      <nav className="flex justify-between p-4"> 
 
       <div className="left-0 top-0">
             <Link href="/" passHref>
               <a>
                <div className="cursor-pointer">
-                  <h1 className="font-bold text-greytext-100 dark:text-whitetext-100">About</h1>
+                  <h1 className="font-bold text-greytext-100">About</h1>
                </div>
                </a>
             </Link>
@@ -38,26 +38,29 @@ export default function Blog({ posts }) {
 
        </nav>
 
-       <div className="flex justify-between p-10">
+       <div className="flex justify-between p-4">
        <div className="text-6xl font-black left-0 top-0">
-       <h1 className="text-greytext-100 dark:text-whitetext-100">
-          My
+       <h1 className="text-greytext-100">
+          Blog
         </h1>
-        <h1 className="text-greytext-100 dark:text-whitetext-100">
-          BLOG <p className="font-normal">. . .journaling to fully comprehend</p>
-        </h1>
+        <p className="text-greytext-100">
+        journaling to fully comprehend
+        </p>
         </div>
         </div>
-        
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       <main>
     
-        <div className='px-10'>
+        <div className='px-4'>
           {posts?.map((post) => {
             return (
               
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
                   <div className='mb-4'>
-                    <h1 className='text-2xl font-semibold'>{post.frontMatter.title}</h1>                   
+                    <h1 className='text-2xl text-gray-500'>{post.frontMatter.title}</h1>                   
                     <h1 className="font-base h-10 text-gray-500">{post.frontMatter.date}</h1>
                     <p>{post.frontMatter.metaDesc}</p>
                     <Link key={`${post.slug}`} href={`/blog/${post.slug}`}>

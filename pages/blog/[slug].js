@@ -5,7 +5,6 @@ import Head from "next/head";
 import fs from "fs";
 import matter from "gray-matter";
 import md from "markdown-it";
-import Toggle from "../../components/Toggle";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 
 export async function getStaticPaths() {
@@ -48,21 +47,21 @@ function BlogPage({ frontMatter, content }) {
       </Head>
 
       <nav className="flex justify-between p-10 p-2 m-2">
-      <Link href="/blog" passHref>
-      <a>
-        <div className="cursor-pointer">
-          <ArrowLeftIcon className="h-6 w-12 font-bold" />
-        </div>
-      </a>
-      </Link>
+      <div></div>
 
       <div className="order-last">
-        <Toggle />
-        </div>
+      <Link href="/blog" passHref>
+      <a>
+      <div className="pl-2 cursor-pointer">
+          <ArrowLeftIcon className="h-6 w-12 font-bold" />
+      </div>
+      </a>
+      </Link>
+      </div>
         
      </nav>
       <main>
-      <div className='p-6'>
+      <div className='p-2'>
       <article
         className='px-2 prose text-base dark:text-blue-200'
         dangerouslySetInnerHTML={{ __html: md().render(content) }}

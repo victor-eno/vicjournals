@@ -18,13 +18,13 @@ import Socials from "../components/Socials";
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between p-10"> 
+      <nav className="flex justify-between p-4"> 
 
       <div className="left-0 top-0">
       <Link href="/blog" passHref>
       <a>
         <div className="cursor-pointer">
-          <h1 className="font-bold text-greytext-100 dark:text-whitetext-100">Blog</h1>
+          <h1 className="font-bold text-greytext-100">Blog</h1>
         </div>
       </a>
       </Link>
@@ -36,21 +36,21 @@ import Socials from "../components/Socials";
 
        </nav>
 
-       <div className="flex justify-between p-10">
+       <div className="flex justify-between p-4">
        <div className="text-6xl font-black left-0 top-0">
-        <h1 className="text-greytext-100 dark:text-whitetext-100">
+        <h1 className="text-greytext-100">
           VICTOR
         </h1>
-        <h1 className="text-greytext-100 dark:text-whitetext-100">
+        <h1 className="text-greytext-100">
           ENO 
         </h1>
-        <p className="font-normal">. . .victor underscore eno three four five at 
+        <p className="text-greytext-100">victor underscore eno three four five at 
         protonmail dot com
         </p>
         </div>
         </div>
 
-      <main className="px-10">
+      <main className="px-4">
 
           <br></br>
           
