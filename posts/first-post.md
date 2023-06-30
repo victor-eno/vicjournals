@@ -17,7 +17,7 @@ I am constantly learning. I've a covetous hunger for knowledge. One of my mantra
 ### All in one 
 So I will put all of them in this website. Mostly they are my notes. They are going to be a blog posts. Bits sizes information, sometimes long articles. Thet are technically my notes I will most likely come back to.
 ### Writing is taking a break from learning 
-Writing time are clearity moment, and comes with many swirl of drifts. The mind may never disengage from challenging thoughts that occupied our day. Even when a person takes a timeout from work or other pursuits to rest, they may shift into their own soliloquy, lost in deep contemplation and reflection. Some of my writings are the products of my cogitations.
+Writing time are clearity moments, and comes with many swirl of drifts. The mind may never disengage from challenging thoughts that occupied our day. Even when a person takes a timeout from work or other pursuits to rest, they may shift into their own soliloquy, lost in deep contemplation and reflection. Some of my writings are the products of my cogitations.
 
 
 ### End line 

@@ -39,11 +39,11 @@ export default function Blog({ posts }) {
        </nav>
 
        <div className="flex justify-between p-4">
-       <div className="text-6xl font-black left-0 top-0">
-       <h1 className="text-greytext-100">
+       <div className="text-5xl font-black left-0 top-0">
+       <h1 className="vic1">
           Blog
         </h1>
-        <p className="text-greytext-100">
+        <p className="vic2">
         journaling to fully comprehend
         </p>
         </div>
@@ -63,14 +63,14 @@ export default function Blog({ posts }) {
                     <h1 className='text-2xl text-gray-500'>{post.frontMatter.title}</h1>                   
                     <h1 className="font-base h-10 text-gray-500">{post.frontMatter.date}</h1>
                     <p>{post.frontMatter.metaDesc}</p>
+                    
+                    <div className="flex justify-between">
                     <Link key={`${post.slug}`} href={`/blog/${post.slug}`}>
                       <a>
                     <h1 className="hover:text-blue-500 text-greytext-100 dark:text-whitetext-100 underline">{post.frontMatter.fullContent}</h1>
                     </a>
-                    </Link>
-                    <div className="flex justify-between">
-                    <h2 className="text-gray-500">{post.frontMatter.tag}</h2>  
-                    <h2 className="order-last text-gray-500">{post.frontMatter.readTime}</h2>
+                    </Link> 
+                    <h2 className="order-last font-base dark:text-moodytext-100 text-gray-500">{post.frontMatter.readTime}</h2>
                     </div>
                   </div>
               </div>

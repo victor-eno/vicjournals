@@ -20,9 +20,18 @@
       letter-spacing: -0.02em;
     }
 
+    .vic1 {  
+      @apply text-greytext-100 dark:text-moodytext-100;;
+      font-variation-settings: 'wght' 50;
+   }
+   .vic2 {  
+    @apply text-greytext-100 dark:text-moodytext-100;;
+    font-variation-settings: 'wght' 200;
+    }
+
     p{
-      @apply text-lg text-coolnight-100 dark:text-moodytext-100;
-      font-variation-settings: 'wght' 150;
+      @apply text-lg text-greytext-100 dark:text-moodytext-100;
+      font-variation-settings: 'wght' 350;
     }
   
   
@@ -36,15 +45,15 @@
     h4,
     h5,
     h6 {
-      @apply text-coolnight-100 dark:text-moodytext-100;
-         font-variation-settings: 'wght' 200;
+      @apply text-greytext-100 dark:text-moodytext-100;;
+         font-variation-settings: 'wght' 350;
        }
    h1 {  
-         @apply text-coolnight-100 dark:text-moodytext-100;
+         @apply text-greytext-100 dark:text-moodytext-100;;
          font-variation-settings: 'wght' 350;
       }
    h2 {
-         font-variation-settings: 'wght' 250;
+         font-variation-settings: 'wght' 350;
       }
   
     a {
