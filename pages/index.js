@@ -5,7 +5,6 @@ import Link from "next/link";
 
 import Toggle from "../components/Toggle";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
-import Socials from "../components/Socials";
 
 
  const Home = () => {
@@ -69,7 +68,6 @@ import Socials from "../components/Socials";
              </p>
           </div>
           <br></br>
-          <Socials />
       </main>
 
      

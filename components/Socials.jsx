@@ -8,7 +8,7 @@ const Socials = () => {
             network="github"
             fgColor="#fff"
             bgColor="#9ca3af"
-            style={{height: 30, width: 30}}
+            style={{height: 25, width: 25}}
             />
 
            <SocialIcon
@@ -16,7 +16,7 @@ const Socials = () => {
             network="linkedin"
             fgColor="#fff"
             bgColor="#9ca3af"
-            style={{height: 30, width: 30}}
+            style={{height: 25, width: 25}}
             />
 
            <SocialIcon
@@ -24,7 +24,7 @@ const Socials = () => {
             network="twitter"
             fgColor="#fff"
             bgColor="#9ca3af"
-            style={{height: 30, width: 30}}
+            style={{height: 25, width: 25}}
             />
             
         </div>
