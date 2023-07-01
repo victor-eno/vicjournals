@@ -50,7 +50,7 @@ function BlogPage({ frontMatter, content }) {
       <div></div>
 
       <div className="order-last">
-      <Link href="/blog" passHref>
+      <Link href="/" passHref>
       <a>
       <div className="pl-2 cursor-pointer">
           <ArrowLeftIcon className="h-6 w-12 font-bold" />
