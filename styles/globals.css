@@ -29,6 +29,11 @@
     font-variation-settings: 'wght' 50;
     }
 
+    .vic3 {  
+      @apply text-greytext-100 dark:text-moodytext-100;;
+      font-variation-settings: 'wght' 500;
+      }
+
     p{
       @apply text-lg text-greytext-100 dark:text-moodytext-100;
       font-variation-settings: 'wght' 350;

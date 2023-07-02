@@ -53,8 +53,6 @@ export default function Blog({ posts }) {
         </div>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
       <main>
     
         <div className='px-4'>
@@ -63,7 +61,7 @@ export default function Blog({ posts }) {
               
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
                   <div className='mb-4'>
-                    <h1 className='text-2xl text-gray-500'>{post.frontMatter.title}</h1>                   
+                    <h1 className='vic3 text-xl text-gray-500'>{post.frontMatter.title}</h1>                   
                     <h1 className="font-base h-10 text-gray-500">{post.frontMatter.date}</h1>
                     <p>{post.frontMatter.metaDesc}</p>
                     
