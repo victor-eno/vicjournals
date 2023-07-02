@@ -36,11 +36,11 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
        </nav>
 
        <div className="flex justify-between p-4">
-       <div className="text-5xl font-black left-0 top-0">
-        <h1 className="vic1">
+       <div>
+        <h1 className="vic1 text-5xl font-black left-0">
           VICTOR
         </h1>
-        <h1 className="vic1">
+        <h1 className="vic1 text-5xl font-black left-0">
           ENO 
         </h1>
         <p className="vic2">victor underscore eno three four five at 
