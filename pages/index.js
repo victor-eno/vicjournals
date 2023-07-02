@@ -39,12 +39,12 @@ export default function Blog({ posts }) {
        </nav>
 
        <div className="flex justify-between p-4">
-       <div className="text-5xl font-black left-0 top-0">
-       <h1 className="vic1">
-          Lucid Scripting
+       <div>
+       <h1 className="vic1 text-5xl font-base left-0">
+         Clear Thinking
         </h1>
-        <p className="vic2">
-        Embracing the path to possibilities through clear thinking
+        <p className="vic2 font-base">
+        Embracing the path to possibilities through journalling
         </p>
         </div>
         </div>
