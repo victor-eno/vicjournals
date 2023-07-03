@@ -38,10 +38,10 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
        <div className="flex justify-between p-4">
        <div>
         <h1 className="vic1 text-4xl font-base left-0">
-          VICTOR
+          Victor
         </h1>
         <h1 className="vic1 text-4xl font-base left-0">
-          ENO 
+          Eno
         </h1>
         <p className="vic2">victor underscore eno three four five at 
         protonmail dot com
@@ -56,7 +56,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
           <div>
           
              <p>
-              Welcome to my web space on the internet. I am a programmer with a restless 
+              Hi! Welcome to my web space on the internet. I am a programmer with a restless 
               commitment to exploring ways to fully comprehend the imaginative art of 
               programming for crafting useful and industrial value software 
               applications
