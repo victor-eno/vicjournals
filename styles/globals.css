@@ -12,6 +12,8 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
       'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      font-variation-settings: 'wght' 450;
+      font-variant: common-ligatures contextual;
       letter-spacing: -0.02em;
     }
 
@@ -26,7 +28,7 @@
 
     .vic3 {  
       @apply text-greytext-100 dark:text-moodytext-100;;
-      font-variation-settings: 'wght' 550;
+      font-variation-settings: 'wght' 750;
       }
 
     p{
