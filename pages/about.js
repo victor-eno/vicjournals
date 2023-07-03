@@ -56,7 +56,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
           <div>
           
              <p>
-              Hi! Welcome to my web space on the internet. I am a programmer with a restless 
+              Welcome to my web space on the internet. I am a programmer with a restless 
               commitment to exploring ways to fully comprehend the imaginative art of 
               programming for crafting useful and industrial value software 
               applications

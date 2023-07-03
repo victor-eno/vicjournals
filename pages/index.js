@@ -61,8 +61,8 @@ export default function Blog({ posts }) {
               
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
                   <div className='mb-4'>
-                    <h1 className='vic3 text-xl font-semibold text-gray-500'>{post.frontMatter.title}</h1>                   
-                    <h1 className="font-base h-10 text-gray-500">{post.frontMatter.date}</h1>
+                    <h1 className='vic3 text-xl font-bold text-gray-500'>{post.frontMatter.title}</h1>                   
+                    <h1 className="font-base h-7 text-gray-500">{post.frontMatter.date}</h1>
                     <p>{post.frontMatter.metaDesc}</p>
                     
                     <div className="flex justify-between">
