@@ -9,12 +9,16 @@
     body {
       @apply bg-coolday-100 dark:bg-coolnight-100;
       @apply min-h-screen;
-      
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+      font-variant: common-ligatures contextual;
+      letter-spacing: -0.02em;
     }
 
     .vic1 {  
       @apply text-greytext-100 dark:text-moodytext-100;;
-      font-variation-settings: 'wght' 650;
+      font-variation-settings: 'wght' 850;
    }
    .vic2 {  
     @apply text-greytext-100 dark:text-moodytext-100;;
