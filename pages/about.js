@@ -35,24 +35,21 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
        </nav>
 
-       <div className="flex justify-between p-4">
+       <div className="flex items-center justify-center p-4">
        <div>
-        <h1 className="vic1 text-4xl font-base left-0">
-          VICTOR
+       <h1 className="vic1 text-3xl font-base left-0">
+         VICTOR ENO
         </h1>
-        <h1 className="vic1 text-4xl font-base left-0">
-          ENO
-        </h1>
-        <p className="vic2">victor underscore eno three four five at 
+        <p className="vic2 font-base">
+        victor underscore eno three four five at 
         protonmail dot com
         </p>
         </div>
         </div>
+        <br></br>
 
       <main className="px-4">
-
-          <br></br>
-          
+      
           <div>
           
              <p>
@@ -69,8 +66,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
           </div>
           <br></br>
       </main>
-
-     
+ 
     </div>
   );
 }
