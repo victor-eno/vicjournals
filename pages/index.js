@@ -40,7 +40,7 @@ export default function Blog({ posts }) {
 
        <div className="flex items-center justify-center p-4">
        <div>
-       <h1 className="vic1 text-3xl font-base">
+       <h1 className="vic1 text-3xl font-bold text-gray-500">
          "INVARIANT VOILATION"
         </h1>
         <p className="vic2 font-base">
