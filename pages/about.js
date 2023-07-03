@@ -38,10 +38,10 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
        <div className="flex justify-between p-4">
        <div>
         <h1 className="vic1 text-4xl font-base left-0">
-          Victor
+          VICTOR
         </h1>
         <h1 className="vic1 text-4xl font-base left-0">
-          Eno
+          ENO
         </h1>
         <p className="vic2">victor underscore eno three four five at 
         protonmail dot com

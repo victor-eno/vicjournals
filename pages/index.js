@@ -41,10 +41,10 @@ export default function Blog({ posts }) {
        <div className="flex justify-between p-4">
        <div>
        <h1 className="vic1 text-4xl font-base left-0">
-         Invariant
+         INVARIANT
         </h1>
         <h1 className="vic1 text-4xl font-base left-0">
-         Violation
+         VIOLATION
         </h1>
         <p className="vic2 font-base">
         Embracing the path to possibilities
@@ -61,7 +61,7 @@ export default function Blog({ posts }) {
               
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
                   <div className='mb-4'>
-                    <h1 className='vic3 text-xl font-base text-gray-500'>{post.frontMatter.title}</h1>                   
+                    <h1 className='vic3 text-xl text-gray-500'>{post.frontMatter.title}</h1>                   
                     <h1 className="font-base h-10 text-gray-500">{post.frontMatter.date}</h1>
                     <p>{post.frontMatter.metaDesc}</p>
                     
