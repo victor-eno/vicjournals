@@ -28,12 +28,12 @@
 
     .vic3 {  
       @apply text-greytext-100 dark:text-moodytext-100;;
-      font-variation-settings: 'wght' 450;
+      font-variation-settings: 'wght' 400;
       }
 
     p{
       @apply text-lg text-greytext-100 dark:text-moodytext-100;
-      font-variation-settings: 'wght' 250;
+      font-variation-settings: 'wght' 150;
     }
   
   
