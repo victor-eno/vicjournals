@@ -31,7 +31,7 @@
 
     .vic3 {  
       @apply text-greytext-100 dark:text-moodytext-100;;
-      font-variation-settings: 'wght' 450;
+      font-variation-settings: 'wght' 550;
       }
 
     p{

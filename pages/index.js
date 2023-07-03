@@ -40,11 +40,11 @@ export default function Blog({ posts }) {
 
        <div className="flex justify-between p-4">
        <div>
-       <h1 className="vic1 text-5xl font-base left-0">
-         CLEAR
+       <h1 className="vic1 text-4xl font-base left-0">
+         INVARIANT
         </h1>
-        <h1 className="vic1 text-5xl font-base left-0">
-         THINKING
+        <h1 className="vic1 text-4xl font-base left-0">
+         VIOLATION
         </h1>
         <p className="vic2 font-base">
         Embracing the path to possibilities
