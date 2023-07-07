@@ -35,7 +35,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
        </nav>
 
-       <div className="flex items-center justify-center p-4">
+       <div className="flex left-0 p-4">
        <div>
        <h1 className="vic1 text-3xl font-bold text-gray-500">
          VICTOR ENO

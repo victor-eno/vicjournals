@@ -63,7 +63,7 @@ function BlogPage({ frontMatter, content }) {
       <main>
       <div className='p-2'>
       <article
-        className='px-2 prose text-base dark:text-blue-200'
+        className='px-2 prose text-base'
         dangerouslySetInnerHTML={{ __html: md().render(content) }}
       />
     </div>

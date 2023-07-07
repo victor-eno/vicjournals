@@ -5,6 +5,8 @@
 @layer base {
     article{
       @apply lg:text-left lg:p-10;
+      @apply text-red-900 dark:text-moodytext-100;;
+      font-variation-settings: 'wght' 350;
     }
     
     body {

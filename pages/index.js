@@ -38,10 +38,10 @@ export default function Blog({ posts }) {
 
        </nav>
 
-       <div className="flex items-center justify-center p-4">
+       <div className="flex left-0 p-4">
        <div>
        <h1 className="vic1 text-3xl font-bold text-gray-500">
-         "INVARIANT VOILATION"
+        POLAR SIGNAL
         </h1>
         <p className="vic2 font-base">
         Embracing the path to possibilities
