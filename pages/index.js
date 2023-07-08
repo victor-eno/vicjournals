@@ -38,10 +38,10 @@ export default function Blog({ posts }) {
 
        </nav>
 
-       <div className="flex left-0 p-4">
+       <div className="flex items-center justify-center p-4">
        <div>
        <h1 className="vic1 text-3xl italic text-gray-500">
-        "Methodus exhaustionibus"
+        Method of Exhaustion
         </h1>
         <p className="vic2 font-base">
         Embracing the path to possibilities
@@ -61,7 +61,7 @@ export default function Blog({ posts }) {
                   <div className='mb-4'>
                     <p className='vic3 font-bold text-gray-500'>{post.frontMatter.title}</p>                   
                     <h1 className="font-base h-7 text-gray-500">{post.frontMatter.date}</h1>
-                    <p className="font-base">{post.frontMatter.metaDesc}</p>
+                    <h2 className="font-base">{post.frontMatter.metaDesc}</h2>
                     
                     <div className="flex justify-between">
                     <Link key={`${post.slug}`} href={`/blog/${post.slug}`}>
