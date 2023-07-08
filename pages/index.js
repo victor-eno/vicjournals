@@ -59,9 +59,9 @@ export default function Blog({ posts }) {
               
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
                   <div className='mb-4'>
-                    <h1 className='vic3 text-xl font-bold text-gray-500'>{post.frontMatter.title}</h1>                   
+                    <p className='vic3 font-bold text-gray-500'>{post.frontMatter.title}</p>                   
                     <h1 className="font-base h-7 text-gray-500">{post.frontMatter.date}</h1>
-                    <p>{post.frontMatter.metaDesc}</p>
+                    <p className="font-base">{post.frontMatter.metaDesc}</p>
                     
                     <div className="flex justify-between">
                     <Link key={`${post.slug}`} href={`/blog/${post.slug}`}>

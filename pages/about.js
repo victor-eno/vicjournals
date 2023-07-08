@@ -37,16 +37,19 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
        <div className="flex left-0 p-4">
        <div>
-       <h1 className="vic1 text-3xl font-bold text-gray-500">
-         VICTOR ENO
+       <h1 className="vic1 text-5xl font-bold text-gray-500">
+         VICTOR 
         </h1>
-        <p className="vic2 font-base">
+        <h1 className="vic1 text-5xl font-bold text-gray-500">
+         ENO
+        </h1>
+        <p className="vic2 font-base underline">
         victor underscore eno 
         </p>
-        <p className="vic2 font-base">
+        <p className="vic2 font-base underline">
         three four five 
         </p>
-        <p className="vic2 font-base">
+        <p className="vic2 font-base underline">
         at protonmail dot com
         </p>
         </div>
