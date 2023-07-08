@@ -5,7 +5,7 @@
 @layer base {
     article{
       @apply lg:text-left lg:p-10;
-      @apply text-red-900 dark:text-moodytext-100;;
+      @apply text-greytext-100 dark:text-moodytext-100;;
       font-variation-settings: 'wght' 350;
     }
     
@@ -33,7 +33,7 @@
 
     p{
       @apply text-lg text-greytext-100 dark:text-moodytext-100;
-      font-variation-settings: 'wght' 150;
+      font-variation-settings: 'slnt' 150;
     }
   
   
@@ -55,6 +55,7 @@
          font-variation-settings: 'wght' 350;
       }
    h2 {
+         @apply text-greytext-100 dark:text-moodytext-100;;
          font-variation-settings: 'wght' 350;
       }
   
