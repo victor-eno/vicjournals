@@ -28,7 +28,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
       </a>
       </Link>
       </div>
-      <div className="flex-1 px-2">
+      <div className="flex-1 px-3">
       <Link href="/about" passHref>
       <a>
         <div className="cursor-pointer">
@@ -46,10 +46,10 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
        <div className="flex left-0 p-4">
        <div>
-       <h1 className="vic1 text-5xl font-bold text-gray-500">
+       <h1 className="vic1 text-5xl text-gray-500">
          VICTOR 
         </h1>
-        <h1 className="vic1 text-5xl font-bold text-gray-500">
+        <h1 className="vic1 text-5xl text-gray-500">
          ENO
         </h1>
         <p className="vic2 font-base underline">

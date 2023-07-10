@@ -28,7 +28,7 @@ export default function Blog({ posts }) {
                </a>
             </Link>
           </div>
-          <div className="flex-1 px-2">
+          <div className="flex-1 px-3">
             <Link href="/about" passHref>
               <a>
                <div className="cursor-pointer">
@@ -50,13 +50,13 @@ export default function Blog({ posts }) {
        <div className="flex Left-0 p-4">
        <div>
        <h1 className="vic1 text-5xl text-gray-500">
-        METHOD of 
+        PATH to  
         </h1>
         <h1 className="vic1 text-5xl text-gray-500">
-        EXHAUSTION
+        POSSIBILITIES
         </h1>
         <p className="vic2 font-base">
-        Embracing the path to possibilities
+        seeking clarity through journaling
         </p>
         </div>
         </div>
