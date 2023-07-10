@@ -5,7 +5,6 @@ import Head from "next/head";
 import fs from "fs";
 import matter from "gray-matter";
 import md from "markdown-it";
-import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 
 export async function getStaticPaths() {
   // get slugs
@@ -46,20 +45,6 @@ function BlogPage({ frontMatter, content }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between p-10 p-2 m-2">
-      <div></div>
-
-      <div className="order-last">
-      <Link href="/" passHref>
-      <a>
-      <div className="pl-2 cursor-pointer">
-          <ArrowLeftIcon className="h-6 w-12 font-bold" />
-      </div>
-      </a>
-      </Link>
-      </div>
-        
-     </nav>
       <main>
       <div className='p-2'>
       <article

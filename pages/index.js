@@ -17,40 +17,10 @@ export default function Blog({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex p-4"> 
-
-      <div className="flex-none underline">
-            <Link href="/" passHref>
-              <a>
-               <div className="cursor-pointer">
-                  <h1 className="font-bold text-greytext-100">Home</h1>
-               </div>
-               </a>
-            </Link>
-          </div>
-          <div className="flex-1 underline px-3">
-            <Link href="/about" passHref>
-              <a>
-               <div className="cursor-pointer">
-                  <h1 className="font-bold text-greytext-100">About</h1>
-               </div>
-               </a>
-            </Link>
-          </div>
-       
-
-       <div className="order-last">
-     
-       <Toggle />
-     
-       </div>
-
-       </nav>
-
        <div className="flex Left-0 p-4">
        <div>
        <h1 className="vic1 text-3xl text-gray-500">
-        PATH to  
+        PATH TO  
         </h1>
         <h1 className="vic1 text-3xl text-gray-500">
         POSSIBILITIES
