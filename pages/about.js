@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
-import Toggle from "../components/Toggle";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
 
