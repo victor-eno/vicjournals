@@ -17,9 +17,18 @@ export default function Blog({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between p-4"> 
+      <nav className="flex p-4 underline"> 
 
-      <div className="left-0 top-0">
+      <div className="flex-none">
+            <Link href="/" passHref>
+              <a>
+               <div className="cursor-pointer">
+                  <h1 className="font-bold text-greytext-100">Home</h1>
+               </div>
+               </a>
+            </Link>
+          </div>
+          <div className="flex-1 px-2">
             <Link href="/about" passHref>
               <a>
                <div className="cursor-pointer">
@@ -38,10 +47,13 @@ export default function Blog({ posts }) {
 
        </nav>
 
-       <div className="flex items-center justify-center p-4">
+       <div className="flex Left-0 p-4">
        <div>
-       <h1 className="vic1 text-3xl text-gray-500">
-        Method of Exhaustion
+       <h1 className="vic1 text-5xl text-gray-500">
+        METHOD of 
+        </h1>
+        <h1 className="vic1 text-5xl text-gray-500">
+        EXHAUSTION
         </h1>
         <p className="vic2 font-base">
         Embracing the path to possibilities

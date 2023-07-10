@@ -17,13 +17,22 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between p-4"> 
+      <nav className="flex underline p-4"> 
 
-      <div className="left-0 top-0">
+      <div className="flex">
       <Link href="/" passHref>
       <a>
         <div className="cursor-pointer">
-          <h1 className="font-bold text-greytext-100">Blog</h1>
+          <h1 className="font-bold text-greytext-100">Home</h1>
+        </div>
+      </a>
+      </Link>
+      </div>
+      <div className="flex-1 px-2">
+      <Link href="/about" passHref>
+      <a>
+        <div className="cursor-pointer">
+          <h1 className="font-bold text-greytext-100">About</h1>
         </div>
       </a>
       </Link>
