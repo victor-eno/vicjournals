@@ -40,7 +40,7 @@ export default function Blog({ posts }) {
 
        <div className="flex items-center justify-center p-4">
        <div>
-       <h1 className="vic1 text-3xl italic text-gray-500">
+       <h1 className="vic1 text-3xl text-gray-500">
         Method of Exhaustion
         </h1>
         <p className="vic2 font-base">
