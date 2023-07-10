@@ -17,9 +17,9 @@ export default function Blog({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex p-4 underline"> 
+      <nav className="flex p-4"> 
 
-      <div className="flex-none">
+      <div className="flex-none underline">
             <Link href="/" passHref>
               <a>
                <div className="cursor-pointer">
@@ -28,7 +28,7 @@ export default function Blog({ posts }) {
                </a>
             </Link>
           </div>
-          <div className="flex-1 px-3">
+          <div className="flex-1 underline px-3">
             <Link href="/about" passHref>
               <a>
                <div className="cursor-pointer">
@@ -49,10 +49,10 @@ export default function Blog({ posts }) {
 
        <div className="flex Left-0 p-4">
        <div>
-       <h1 className="vic1 text-5xl text-gray-500">
+       <h1 className="vic1 text-3xl text-gray-500">
         PATH to  
         </h1>
-        <h1 className="vic1 text-5xl text-gray-500">
+        <h1 className="vic1 text-3xl text-gray-500">
         POSSIBILITIES
         </h1>
         <p className="vic2 font-base">

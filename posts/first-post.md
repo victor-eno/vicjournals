@@ -11,17 +11,17 @@ ps: '  This article was posted on 2022-04-27. Facts and circumstances may have c
        something seems wrong or unclear.'   
 ---
 ### Make Some Noise!
-Yes, that's the feeling for having a thing come to live as I finally have my genesis content here. The ultimate goal is to become sleek at programming and building useful applications.   I really want to write; all what i'm learning, all of them. All my thinking and logic I have reflected on while learning from the most brilliant minds. Though this took a while, I genuinely want to write and I have to.
+Yes, that's the feeling of having a thing comes to live as I finally have my genesis content here. The ultimate goal is to become sleek in programming and building useful applications.   I really want to write all what I am learning, all of them. All my thinking and logic I have reflected on while learning from the most brilliant minds. Although this took a while, I genuinely wanted to write and I had to.
 ### How I Learn
-I am constantly learning. I've a covetous hunger for knowledge. One of my mantras in life is **seek, and search the truth. Ask and find nothing but the truth.** I have notes, lots of them. The ones I put down in blue ink on white A4 paper. The ones I copy-paste on my mobile note pad. Even the ones I screenshot. These are not all of them. I question many things I have seen and heard while learning by writing them down. 
+I am constantly learning. I have a covetous hunger for knowledge. One of my mantras in life is **seeking and searching for the truth. Ask and find nothing but the truth.** I have notes, many of them. The ones I put down in blue ink on white A4 paper. The ones I copy-paste on my mobile note pad. Even the ones I screenshot. However,these are not all of them. I question many things that I have seen and heard while learning by writing them down. 
 ### All in one 
-So I will put all of them in this website. Mostly they are my notes. They are going to be a blog posts. Bits sizes information, sometimes long articles. Thet are technically my notes I will most likely come back to.
+Therefore I will put all of them on this website. They are mostly my notes. These are going to be blog posts. Bit size information, sometimes long articles. They are my technical notes that I will most likely come back to.
 ### Writing is taking a break from learning 
-Writing time are clearity moments, and comes with many swirl of drifts. The mind may never disengage from challenging thoughts that occupied our day. Even when a person takes a timeout from work or other pursuits to rest, they may shift into their own soliloquy, lost in deep contemplation and reflection. Some of my writings are the products of my cogitations.
+Writing time brings clarity, and comes with many drifts. The mind may never disengage from the challenging thoughts that occupied our day. Even when a person takes a timeout from work or other pursuits to rest, they may shift into their own soliloquy, lost in deep contemplation and reflection. Some of my writing are the product of my cogitation.
 
 
 ### End line 
-I am done typing this test post. But, It does not really ends here...
+I am done typing this test post. However, it does not really end here...
 
 ### Hello World
 The begining ~~of my learning notes in public.~~
