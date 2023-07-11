@@ -5,7 +5,7 @@ import Toggle from "../components/Toggle";
 
 const Header = () => {
     return ( 
-        <nav className="flex p-4"> 
+        <nav className="flex p-4 dark:border-moodytext-100 border-b"> 
 
       <div className="flex-none">
             <Link href="/" passHref>
