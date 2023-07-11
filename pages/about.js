@@ -47,7 +47,6 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
               programming for crafting useful and industrial value software 
               applications
              </p>
-             <br></br>
              <p>
              My key interests are in open source software, Distributed system,
                Storage, Web servers technology, User interface design
