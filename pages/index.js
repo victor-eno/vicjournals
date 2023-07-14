@@ -22,7 +22,7 @@ export default function Blog({ posts }) {
             <Link href="/about" passHref>
               <a>
                <div className="cursor-pointer">
-                  <h1 className="font-bold text-greytext-100">about.me</h1>
+                  <h3 className="font-bold text-greytext-100">about.me</h3>
                </div>
                </a>
             </Link>
@@ -41,11 +41,13 @@ export default function Blog({ posts }) {
         TTY1
         </h1>
         <p className="vic2 font-base">
-        Embracing the path to possibilities
+        Embracing the path
+        </p>
+        <p className="vic2 font-base">
+        To possibilities
         </p>
         </div>
         </div>
-        <br></br>
         <br></br>
         <br></br>
       <main>
@@ -63,7 +65,7 @@ export default function Blog({ posts }) {
                     <div className="flex justify-between">
                     <Link key={`${post.slug}`} href={`/blog/${post.slug}`}>
                       <a>
-                    <h1 className="hover:text-blue-500 text-greytext-100 dark:text-whitetext-100 underline">{post.frontMatter.fullContent}</h1>
+                    <h2 className="hover:text-blue-500 text-greytext-100 dark:text-whitetext-100 underline">{post.frontMatter.fullContent}</h2>
                     </a>
                     </Link> 
                     <h2 className="order-last font-base dark:text-moodytext-100 text-gray-500">{post.frontMatter.readTime}</h2>

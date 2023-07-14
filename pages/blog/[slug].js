@@ -51,7 +51,7 @@ function BlogPage({ frontMatter, content }) {
             <Link href="/" passHref>
               <a>
                <div className="cursor-pointer">
-                  <h1 className="font-bold text-greytext-100">blog.page</h1>
+                  <h3 className="font-bold text-greytext-100">blog.page</h3>
                </div>
                </a>
             </Link>
