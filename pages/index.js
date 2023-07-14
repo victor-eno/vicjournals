@@ -20,13 +20,13 @@ export default function Blog({ posts }) {
        <div className="flex Left-0 p-4">
        <div>
        <h1 className="vic1 text-3xl text-gray-500">
-        PATH TO  
+        THE LUCID
         </h1>
         <h1 className="vic1 text-3xl text-gray-500">
-        POSSIBILITIES
+        TTY1
         </h1>
         <p className="vic2 font-base">
-        seeking clarity through journaling
+        Embracing the path to possibilities
         </p>
         </div>
         </div>
