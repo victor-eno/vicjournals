@@ -52,7 +52,7 @@
        }
    h1 {  
          @apply text-greytext-100 dark:text-moodytext-100;;
-         font-variation-settings: 'wght' 950;
+         
       }
    h2 {
          @apply text-greytext-100 dark:text-moodytext-100;;
