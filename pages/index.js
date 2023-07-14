@@ -34,10 +34,10 @@ export default function Blog({ posts }) {
 
        <div className="flex Left-0 p-4">
        <div>
-       <h1 className="text-3xl">
+       <h1 className="text-3xl font-black">
         THE LUCID
         </h1>
-        <h1 className="text-3xl">
+        <h1 className="text-3xl font-black">
         TTY1
         </h1>
         <p className="vic2 font-base">
@@ -58,7 +58,7 @@ export default function Blog({ posts }) {
               
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
                   <div className='mb-4'>
-                    <h1 className='vic3 text-xl'>{post.frontMatter.title}</h1>                   
+                    <h1 className='vic3 text-xl font-semibold'>{post.frontMatter.title}</h1>                   
                     <h1 className="font-base h-7 text-gray-500">{post.frontMatter.date}</h1>
                     <h2 className="font-base">{post.frontMatter.metaDesc}</h2>
                     
