@@ -43,13 +43,16 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
           
              <p>
               Welcome to my web space on the internet. I am a programmer with a restless 
-              commitment to exploring ways to fully comprehend the imaginative art of 
-              programming for crafting useful and industrial value software 
+              commitment to exploring ways to fully comprehend the magic that lies within the 
+               imaginative art of 
+              programming, all in the pursuit of building useful and meaningful value software 
               applications
              </p>
              <p>
-             My key interests are in open source software, Distributed system,
-               Storage, Web servers technology, User interface design
+             I have a strong fascination with open source software, distributed systems,
+               storage solutions, web servers technology and the captivating space of user 
+               interface design. These areas ignite my curiosity and drive  me deeper into 
+               the exciting possibilities they offer.
              </p>
           </div>
           <br></br>
