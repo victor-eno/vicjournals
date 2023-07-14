@@ -19,16 +19,16 @@
 
     .vic1 {  
       @apply text-greytext-100 dark:text-moodytext-100;;
-      font-variation-settings: 'wght' 550;
+      font-variation-settings: 'wght' 750;
    }
    .vic2 {  
     @apply text-greytext-100 dark:text-moodytext-100;;
-    font-variation-settings: 'wght' 150;
+    font-variation-settings: 'wght' 200;
     }
 
     .vic3 {  
       @apply text-greytext-100 dark:text-moodytext-100;;
-      font-variation-settings: 'wght' 100;
+      font-variation-settings: 'wght' 500;
       }
 
     p{

@@ -19,6 +19,9 @@ module.exports = {
           100: '#c5cae9',
         },
         greytext: {
+          100: '#000'
+        },
+        fadetext: {
           100: '#71717f'
         },
         whitetext: {

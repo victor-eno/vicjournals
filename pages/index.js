@@ -17,12 +17,27 @@ export default function Blog({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
+      <nav className="flex justify-between p-4 dark:border-moodytext-100 border-b"> 
+      <div className="left-0 top-0">
+            <Link href="/about" passHref>
+              <a>
+               <div className="cursor-pointer">
+                  <h1 className="font-bold text-greytext-100">about.me</h1>
+               </div>
+               </a>
+            </Link>
+          </div>
+       <div className="order-last">
+       <Toggle />
+       </div>
+       </nav>
+
        <div className="flex Left-0 p-4">
        <div>
-       <h1 className="vic1 text-3xl text-gray-500">
+       <h1 className="vic1 text-3xl">
         THE LUCID
         </h1>
-        <h1 className="vic1 text-3xl text-gray-500">
+        <h1 className="vic1 text-3xl">
         TTY1
         </h1>
         <p className="vic2 font-base">
@@ -41,7 +56,7 @@ export default function Blog({ posts }) {
               
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
                   <div className='mb-4'>
-                    <h1 className='vic3 text-xl text-gray-500'>{post.frontMatter.title}</h1>                   
+                    <h1 className='vic3 text-xl'>{post.frontMatter.title}</h1>                   
                     <h1 className="font-base h-7 text-gray-500">{post.frontMatter.date}</h1>
                     <h2 className="font-base">{post.frontMatter.metaDesc}</h2>
                     
