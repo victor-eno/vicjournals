@@ -17,7 +17,7 @@ export default function Blog({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between p-4 dark:border-moodytext-100 border-b"> 
+      <nav className="flex justify-between bg-gray-50 dark:bg-coolnight-100 p-4 dark:border-moodytext-100 border-b"> 
       <div className="left-0 top-0">
             <Link href="/about" passHref>
               <a>
@@ -34,10 +34,10 @@ export default function Blog({ posts }) {
 
        <div className="flex Left-0 p-4">
        <div>
-       <h1 className="vic1 text-3xl font-black">
+       <h1 className="text-3xl font-black">
         THE LUCID
         </h1>
-        <h1 className=" vic1 text-3xl font-black">
+        <h1 className="text-3xl font-black">
         TTY1
         </h1>
         <p className="vic2 font-base">
