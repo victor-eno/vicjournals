@@ -5,7 +5,7 @@
 @layer base {
     article{
       @apply lg:text-left lg:p-10;
-      @apply text-greytext-100 dark:text-moodytext-100;;
+      @apply text-coolnight-100 dark:text-moodytext-100;;
       font-variation-settings: 'wght' 350;
     }
     
@@ -18,21 +18,21 @@
     }
 
     .vic1 {  
-      @apply text-greytext-100 dark:text-moodytext-100;;
+      @apply text-coolnight-100 dark:text-moodytext-100;;
       font-variation-settings: 'wght' 950;
    }
    .vic2 {  
-    @apply text-greytext-100 dark:text-moodytext-100;;
+    @apply text-coolnight-100 dark:text-moodytext-100;;
     font-variation-settings: 'wght' 200;
     }
 
     .vic3 {  
-      @apply text-greytext-100 dark:text-moodytext-100;;
+      @apply text-coolnight-100 dark:text-moodytext-100;;
       font-variation-settings: 'wght' 500;
       }
 
     p{
-      @apply text-lg text-greytext-100 dark:text-moodytext-100;
+      @apply text-lg text-coolnight-100 dark:text-moodytext-100;
       font-variation-settings: 'wght' 150;
     }
   
@@ -47,15 +47,15 @@
     h4,
     h5,
     h6 {
-      @apply text-greytext-100 dark:text-moodytext-100;;
+      @apply text-coolnight-100 dark:text-moodytext-100;;
          font-variation-settings: 'wght' 350;
        }
    h1 {  
-         @apply text-greytext-100 dark:text-moodytext-100;;
+         @apply text-coolnight-100 dark:text-moodytext-100;;
          font-variation-settings: 'wght' 950;
       }
    h2 {
-         @apply text-greytext-100 dark:text-moodytext-100;;
+         @apply text-coolnight-100 dark:text-moodytext-100;;
          font-variation-settings: 'wght' 200;
       }
   
