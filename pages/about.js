@@ -22,7 +22,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
             <Link href="/" passHref>
               <a>
                <div className="cursor-pointer">
-                  <h3 className="font-bold text-greytext-100">blog.page</h3>
+                  <h3 className="font-bold text-gray-500">blog.page</h3>
                </div>
                </a>
             </Link>
@@ -34,10 +34,10 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
        <div className="flex left-0 p-4">
        <div>
-       <h1 className="text-3xl font-black">
+       <h1 className="text-5xl font-black">
          VICTOR 
         </h1>
-        <h1 className="text-3xl font-black">
+        <h1 className="text-5xl font-black">
          ENO
         </h1>
         <p className="vic2 font-base">
@@ -65,10 +65,9 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
               applications
              </p>
              <p>
-               Open source software, distributed systems,
+               My key interests are in open source software, distributed systems,
                storage solutions, web servers technology and user 
-               interface design, are the areas that ignite my curiosity and drive  me deeper into 
-               the exciting possibilities they offer.
+               interface design.
              </p>
           </div>
           <br></br>

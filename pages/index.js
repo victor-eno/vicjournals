@@ -22,7 +22,7 @@ export default function Blog({ posts }) {
             <Link href="/about" passHref>
               <a>
                <div className="cursor-pointer">
-                  <h3 className="font-bold text-greytext-100">about.me</h3>
+                  <h3 className="font-bold text-gray-500">about.me</h3>
                </div>
                </a>
             </Link>
@@ -34,10 +34,10 @@ export default function Blog({ posts }) {
 
        <div className="flex Left-0 p-4">
        <div>
-       <h1 className="text-3xl font-black">
+       <h1 className="text-5xl font-black">
         THE LUCID
         </h1>
-        <h1 className="text-3xl font-black">
+        <h1 className="text-5xl font-black">
         TTY1
         </h1>
         <p className="vic2 font-base">
