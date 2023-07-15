@@ -46,7 +46,7 @@ function BlogPage({ frontMatter, content }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between bg-gray-50 dark:bg-coolnight-100 p-4 dark:border-moodytext-100 border-b"> 
+      <nav className="flex justify-between p-4 dark:border-moodytext-100 border-b"> 
       <div className="left-0 top-0">
             <Link href="/" passHref>
               <a>

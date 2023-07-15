@@ -17,7 +17,7 @@ export default function Blog({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between bg-gray-50 dark:bg-coolnight-100 p-4 dark:border-moodytext-100 border-b"> 
+      <nav className="flex justify-between p-4 dark:border-moodytext-100 border-b"> 
       <div className="left-0 top-0">
             <Link href="/about" passHref>
               <a>
@@ -59,8 +59,8 @@ export default function Blog({ posts }) {
               <div  key={`${post.slug}`} href={`/blog/${post.slug}`}>
                   <div className='mb-4'>
                     <h1 className='vic3 text-xl font-semibold'>{post.frontMatter.title}</h1>                   
-                    <h2 className="font-base h-7 text-gray-500">{post.frontMatter.date}</h2>
-                    <h2 className="font-base">{post.frontMatter.metaDesc}</h2>
+                    <h2 className="text-base h-5 text-gray-500">{post.frontMatter.date}</h2>
+                    <h2 className="text-base text-gray-700">{post.frontMatter.metaDesc}</h2>
                     
                     <div className="flex justify-between">
                     <Link key={`${post.slug}`} href={`/blog/${post.slug}`}>
@@ -68,7 +68,7 @@ export default function Blog({ posts }) {
                     <h2 className="hover:text-blue-500 text-greytext-100 dark:text-whitetext-100 underline">{post.frontMatter.fullContent}</h2>
                     </a>
                     </Link> 
-                    <h2 className="order-last font-base dark:text-moodytext-100 text-gray-500">{post.frontMatter.readTime}</h2>
+                    <h2 className="order-last text-base dark:text-moodytext-100 text-gray-500">{post.frontMatter.readTime}</h2>
                     </div>
                   </div>
               </div>

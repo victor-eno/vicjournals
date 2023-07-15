@@ -17,7 +17,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between bg-gray-50 dark:bg-coolnight-100 p-4 dark:border-moodytext-100 border-b"> 
+      <nav className="flex justify-between p-4 dark:border-moodytext-100 border-b"> 
       <div className="left-0 top-0">
             <Link href="/" passHref>
               <a>
@@ -65,9 +65,9 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
               applications
              </p>
              <p>
-             I have a strong fascination with open source software, distributed systems,
-               storage solutions, web servers technology and the captivating space of user 
-               interface design. These areas ignite my curiosity and drive  me deeper into 
+               Open source software, distributed systems,
+               storage solutions, web servers technology and user 
+               interface design, are the areas that ignite my curiosity and drive  me deeper into 
                the exciting possibilities they offer.
              </p>
           </div>
