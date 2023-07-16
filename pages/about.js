@@ -17,7 +17,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between p-4 dark:border-moodytext-100 border-b"> 
+      <nav className="flex justify-between p-4 dark:border-fadetext-100 border-b"> 
       <div className="left-0 top-0">
             <Link href="/" passHref>
               <a>

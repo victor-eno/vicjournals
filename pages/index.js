@@ -17,7 +17,7 @@ export default function Blog({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <nav className="flex justify-between p-4 dark:border-moodytext-100 border-b"> 
+      <nav className="flex justify-between p-4 dark:border-fadetext-100 border-b"> 
       <div className="left-0 top-0">
             <Link href="/about" passHref>
               <a>
@@ -44,10 +44,10 @@ export default function Blog({ posts }) {
         Embracing the
         </p>
         <p className="vic2 font-base">
-        determinate path
+        Path to possibilities
         </p>
         <p className="vic2 font-base">
-        to possibilities
+        
         </p>
         </div>
         </div>
