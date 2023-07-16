@@ -41,10 +41,13 @@ export default function Blog({ posts }) {
         TTY1
         </h1>
         <p className="vic2 font-base">
-        Embracing the path
+        Embracing the
         </p>
         <p className="vic2 font-base">
-        To possibilities
+        determinate path
+        </p>
+        <p className="vic2 font-base">
+        to possibilities
         </p>
         </div>
         </div>
