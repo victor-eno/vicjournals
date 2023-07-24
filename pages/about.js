@@ -34,10 +34,10 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 
        <div className="flex left-0 p-4">
        <div>
-       <h1 className="text-5xl font-black">
+       <h1 className="text-4xl font-black">
          VICTOR 
         </h1>
-        <h1 className="text-5xl font-black">
+        <h1 className="text-4xl font-black">
          ENO
         </h1>
         <p className="vic2 font-base">

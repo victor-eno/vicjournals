@@ -34,17 +34,17 @@ export default function Blog({ posts }) {
 
        <div className="flex Left-0 p-4">
        <div>
-       <h1 className="text-5xl font-black">
-        THE LUCID
+       <h1 className="text-4xl font-black">
+        INFINITE
         </h1>
-        <h1 className="text-5xl font-black">
-        TTY1
+        <h1 className="text-4xl font-black">
+        UNORDERED
         </h1>
         <p className="vic2 font-base">
         Embracing the
         </p>
         <p className="vic2 font-base">
-        Path to possibilities
+        Path of possibilities
         </p>
         <p className="vic2 font-base">
         
