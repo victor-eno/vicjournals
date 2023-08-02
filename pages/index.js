@@ -35,16 +35,16 @@ export default function Blog({ posts }) {
        <div className="flex Left-0 p-4">
        <div>
        <h1 className="text-4xl font-black">
-        From Mind
+        The nth
         </h1>
         <h1 className="text-4xl font-black">
-        To Matter
+        of Type Chaos
         </h1>
         <p className="vic2 font-base">
-        Embracing the path of possibilities
+        brilliance, creative forms and 
         </p>
         <p className="vic2 font-base">
-        By giving forms to creative ideas
+        wonders shall never cease
         </p>
         <p className="vic2 font-base">
         
