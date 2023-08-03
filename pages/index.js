@@ -41,10 +41,10 @@ export default function Blog({ posts }) {
         of Type Chaos
         </h1>
         <p className="vic2 font-base">
-        brilliance, creative forms and 
+        brilliance and creative forms
         </p>
         <p className="vic2 font-base">
-        wonders shall never cease
+        shall never cease
         </p>
         <p className="vic2 font-base">
         
